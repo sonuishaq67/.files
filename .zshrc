@@ -8,13 +8,13 @@ export ZSH="/home/toor/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="jonathan"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+#ZSH_THEME_RANDOM_CANDIDATES=( "aussiegeek" "jonathan" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -68,7 +68,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git python zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='vim'
+	export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -102,15 +102,15 @@ fi
 if [ -f ~/.tokens ]; then
     . ~/.tokens
 fi
-export PATH=/home/toor/flutter/bin:$PATH
+#export PATH=/home/toor/flutter/bin:$PATH
 export PATH=/home/toor/go/bin:$PATH
 export PATH=/home/toor/.local/bin:$PATH
 export PATH=/home/toor/.npm-global/lib/node_modules/@angular/cli/bin:$PATH
 export PATH=/home/toor/.scripts:$PATH
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
-export CHROME_EXECUTABLE=/opt/google/chrome/chrome
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+#export CHROME_EXECUTABLE=/opt/google/chrome-unstable/chrome
+#export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH=/home/toor/.npm-global/bin:$PATH
 export PATH=/home/toor/.gem/ruby/2.7.0/bin:$PATH
 eval $(thefuck --alias)
