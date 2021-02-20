@@ -109,8 +109,8 @@ export PATH=/home/toor/.npm-global/lib/node_modules/@angular/cli/bin:$PATH
 export PATH=/home/toor/.scripts:$PATH
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
-#export CHROME_EXECUTABLE=/opt/google/chrome-unstable/chrome
-#export PATH="$PATH":"$HOME/.pub-cache/bin"
+export CHROME_EXECUTABLE=/opt/google/chrome-unstable/chrome
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH=/home/toor/.npm-global/bin:$PATH
 export PATH=/home/toor/.gem/ruby/2.7.0/bin:$PATH
 eval $(thefuck --alias)
