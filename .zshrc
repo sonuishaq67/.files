@@ -114,6 +114,7 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH=/home/toor/.npm-global/bin:$PATH
 export PATH=/home/toor/.gem/ruby/2.7.0/bin:$PATH
 eval $(thefuck --alias)
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""' # fzf config
 # added by travis gem
 [ ! -s /home/toor/.travis/travis.sh ] || source /home/toor/.travis/travis.sh
 # because expr doesn't do a good job
