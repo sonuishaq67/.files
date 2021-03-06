@@ -102,7 +102,7 @@ fi
 if [ -f ~/.tokens ]; then
     . ~/.tokens
 fi
-#export PATH=/home/toor/flutter/bin:$PATH
+export PATH=/home/toor/flutter/bin:$PATH
 export PATH=/home/toor/go/bin:$PATH
 export PATH=/home/toor/.local/bin:$PATH
 export PATH=/home/toor/.npm-global/lib/node_modules/@angular/cli/bin:$PATH
