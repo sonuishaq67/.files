@@ -1,1 +1,1 @@
-pacman -Qm # to list packages I explicitly installed
+pacman -Qmq # to list packages I explicitly installed
